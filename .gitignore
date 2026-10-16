@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Notebook geçici dosyaları
+.ipynb_checkpoints/
+
+# Gizli ayarlar
+.env
+.env.*
+!.env.example
+
+# Model ağırlıkları — Hugging Face'te tutulur
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Yerel model ve arama çıktıları
+/lora/
+/Kivi-1.5B/
+/llama.cpp/
+/chroma/
